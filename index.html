@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Nabiha ❤️</title>
+    <style>
+        :root {
+            --ruby: #d00000;
+            --rose: #ff4d6d;
+            --blush: #ffccd5;
+            --soft: #fff0f3;
+        }
+
+        /* CUSTOM CURSOR */
+        * { cursor: url('https://cur.cursors-4u.net/symbols/sym-9/sym847.cur'), auto !important; }
+
+        body {
+            margin: 0; padding: 0;
+            background: linear-gradient(-45deg, #fff0f3, #ffccd5, #ffb3c1, #fff0f3);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            color: #590d22;
+            font-family: 'Segoe UI', sans-serif;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
+        }
+
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        section {
+            min-height: 100vh;
+            display: flex; flex-direction: column;
+            justify-content: center; align-items: center;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(15px);
+            border-radius: 30px;
+            padding: 40px;
+            box-shadow: 0 15px 35px rgba(208, 0, 0, 0.15);
+            max-width: 700px;
+        }
+
+        /* UPDATED 5-PHOTO GALLERY */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+            width: 95%;
+            margin: 30px auto;
+        }
+
+        .photo-frame {
+            background: white;
+            padding: 12px 12px 45px 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+            width: 220px;
+            transition: transform 0.3s ease;
+        }
+
+        .photo-frame img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border: 1px solid #eee;
+        }
+
+        /* Scattered rotation effect */
+        .photo-frame:nth-child(1) { transform: rotate(-3deg); }
+        .photo-frame:nth-child(2) { transform: rotate(2deg); }
+        .photo-frame:nth-child(3) { transform: rotate(-1deg); }
+        .photo-frame:nth-child(4) { transform: rotate(4deg); }
+        .photo-frame:nth-child(5) { transform: rotate(-2deg); }
+
+        .photo-frame:hover {
+            transform: scale(1.1) rotate(0deg);
+            z-index: 10;
+        }
+
+        /* THE PROPOSAL SECTION */
+        #proposal {
+            background: linear-gradient(135deg, #ff4d6d, #d00000);
+            color: white;
+            width: 100%;
+        }
+        #proposal h1 { color: white; text-shadow: 2px 2px 10px rgba(0,0,0,0.2); }
+
+        .btn-container {
+            display: flex; justify-content: center; align-items: center;
+            gap: 40px; margin-top: 40px; position: relative; width: 100%; height: 120px;
+        }
+
+        #yesBtn {
+            padding: 20px 60px; font-size: 1.8rem; border-radius: 50px;
+            background: white; color: var(--ruby); border: none;
+            font-weight: bold; cursor: pointer; transition: 0.3s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        #noBtn {
+            padding: 20px 60px; font-size: 1.8rem; border-radius: 50px;
+            background: rgba(255,255,255,0.3); color: white; border: 2px solid white;
+            font-weight: bold; position: absolute; transition: 0.1s ease-out;
+        }
+
+        .quiz-btn {
+            display: block; width: 100%; padding: 15px; margin: 10px 0;
+            background: white; border: none; border-radius: 50px;
+            color: var(--rose); font-weight: bold; cursor: pointer;
+        }
+
+        #heart-rain { position: fixed; top: 0; left: 0; pointer-events: none; z-index: 100; }
+    </style>
+</head>
+<body>
+
+    <div id="heart-rain"></div>
+
+    <audio id="mySong" loop>
+        <source src="Bongo Cat - Love Story (Cover Version).mp3" type="audio/mpeg">
+    </audio>
+
+    <section>
+        <div class="glass-card">
+            <h1 style="color: var(--ruby);">Hi Nabiha Tarannum num num num  ❤️</h1>
+            <p>I know things have been tense lately, but I made this to remind you of "us."</p>
+            <button onclick="startExperience()" style="padding: 15px 35px; border-radius: 30px; background: var(--rose); color: white; border: none; font-weight: bold; font-size: 1.1rem;">
+                Click to Start 🎵
+            </button>
+        </div>
+    </section>
+
+    <section>
+        <h2 style="color: var(--ruby); font-size: 2.5rem;">Our Favorites 📸</h2>
+        <div class="gallery">
+            <div class="photo-frame"><img src="d:\gifty\photos\WhatsApp Image 2026-02-13 at .jpeg" alt="Memory 1"></div>
+            <div class="photo-frame"><img src="d:\gifty\photos\WhatsApp Image 2026-02-13 at 22.15..jpeg" alt="Memory 2"></div>
+            <div class="photo-frame"><img src="d:\gifty\photos\WhatsApp Image 2026-02-13 at 22.22.46.jpeg" alt="Memory 3"></div>
+            <div class="photo-frame"><img src="d:\gifty\photos\WhatsApp Image 2026-02-13 at 22.23.03.jpeg" alt="Memory 4"></div>
+            <div class="photo-frame"><img src="d:\gifty\photos\WhatsApp Image 2026-02-13 at 22.24.53.jpeg" alt="Memory 5"></div>
+        </div>
+        <p style="margin-top: 20px; font-style: italic;">Every photo has a story...</p>
+    </section>
+
+    <section>
+        <div class="glass-card" style="text-align: left; border-left: 8px solid var(--ruby); padding: 50px;">
+            <p><strong>Happy Valentine’s Day, love.</strong></p>
+            <p>It’s our third Valentine’s together. I know people say it’s old-fashioned... but I guess I’m just that old man who loves you too much to not say something.</p>
+            <p>I’m really sorry for my mistakes and for the times I made things harder for you. I’m trying to grow up, to be better, to be someone you can rely on. I want to be someone who makes things easier for you, not heavier.</p>
+            <p>I love you so much, Nabiha. I just hope you never misunderstand my heart.</p>
+            <p style="text-align: right; font-weight: bold; font-size: 1.4rem;">— Always yours. ❤️</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="glass-card">
+            <h3>🧠 The "Us" Quiz</h3>
+            <p>What is my favorite thing about you?</p>
+            <button class="quiz-btn" onclick="alert('That is definitely up there, but not the #1!')">Your intelligence </button>
+            <button class="quiz-btn" onclick="alert('That is definitely up there, but not the #1!')">Your coolness </button>
+            <button class="quiz-btn" onclick="alert('That is definitely up there, but not the #1!')">Your smile </button>
+            <button class="quiz-btn" onclick="alert('That is definitely up there, but not the #1!')">Your baddie-ness</button>
+            <button class="quiz-btn" onclick="revealSecret()">Everything (especially your eyes , smile and yk whattt😏😏 )</button>
+            <p id="secretText" style="display:none; color: var(--ruby); font-weight: bold; margin-top: 15px;">
+                🔓 SECRET: I have a folder in my phone just for screenshots of your texts because they make me smile.
+            </p>
+        </div>
+    </section>
+
+    <section id="proposal">
+        <h1>So, Nabiha...</h1>
+        <h2 style="font-size: 3rem;">Will you be my Valentine? 💍</h2>
+        <div class="btn-container">
+            <button id="yesBtn" onclick="accepted()">YES!</button>
+            <button id="noBtn" onmouseover="moveNo()">No</button>
+        </div>
+    </section>
+
+    <script>
+        function startExperience() {
+            const audio = document.getElementById('mySong');
+            audio.play().catch(e => console.log("Music waiting for interaction."));
+            window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
+        }
+
+        function moveNo() {
+            const btn = document.getElementById('noBtn');
+            const x = Math.random() * (window.innerWidth - 180);
+            const y = Math.random() * (window.innerHeight - 100);
+            btn.style.position = 'fixed';
+            btn.style.left = x + 'px';
+            btn.style.top = y + 'px';
+        }
+
+        function revealSecret() {
+            document.getElementById('secretText').style.display = 'block';
+        }
+
+        function accepted() {
+            document.getElementById('proposal').innerHTML = `
+                <h1 style="font-size: 5rem; margin-bottom:0;">YESSS! ❤️</h1>
+                <p style="font-size: 2rem;">You've made me the happiest "old man" alive.</p>
+                <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHpueGZ3bm9qZzR4eXh4eXh4eXh4eXh4eXh4eXh4eXh4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KztT2c4u8mYYUiMKdJ/giphy.gif" width="300" style="border-radius:20px; margin-top:20px;">
+            `;
+            setInterval(rainHearts, 100);
+        }
+
+        function rainHearts() {
+            const heart = document.createElement('div');
+            heart.innerHTML = '❤️';
+            heart.style.position = 'fixed';
+            heart.style.left = Math.random() * 100 + 'vw';
+            heart.style.top = '-5vh';
+            heart.style.fontSize = Math.random() * 20 + 20 + 'px';
+            heart.style.transition = '5s linear';
+            document.getElementById('heart-rain').appendChild(heart);
+            setTimeout(() => heart.style.top = '110vh', 100);
+            setTimeout(() => heart.remove(), 5100);
+        }
+    </script>
+</body>
+</html>
